@@ -752,5 +752,8 @@ img { max-width: 100%; display: block; }
     .skills-categories { grid-template-columns: 1fr; }
     .footer-inner { flex-direction: column; gap: 1rem; text-align: center; }
     .contact-buttons { flex-direction: column; }
-    .contact-btn { flex: none; width: 100%; }
+    .contact-btn { flex: none; width: 100%; min-width: 0; }
+    .contact-btn-value { white-space: normal; word-break: break-all; font-size: 0.8rem; }
+    .contact-btn svg { width: 32px; height: 32px; }
+    .contact .section-label { font-size: 2rem; }
 }
