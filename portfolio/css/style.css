@@ -756,4 +756,7 @@ img { max-width: 100%; display: block; }
     .contact-btn-value { white-space: normal; word-break: break-all; font-size: 0.8rem; }
     .contact-btn svg { width: 32px; height: 32px; }
     .contact .section-label { font-size: 2rem; }
+    .stats-grid { flex-wrap: wrap; gap: 1rem; }
+    .stat-item { flex: 1 1 40%; min-width: 0; }
+    .hero-badge { font-size: 0.65rem; letter-spacing: 0.1em; padding: 0.5rem 1rem; }
 }
